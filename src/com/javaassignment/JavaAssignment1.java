@@ -2,10 +2,9 @@ package com.javaassignment;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.nio.file.Files;
 import java.util.Scanner;
 
-public class JavaAssigment1 {
+public class JavaAssignment1 {
 
     public void findfile(String search){
         //base directory path.
@@ -32,7 +31,7 @@ public class JavaAssigment1 {
 
         Scanner scan = new Scanner(System.in);
 
-        JavaAssigment1 ja1 = new JavaAssigment1();
+        JavaAssignment1 ja1 = new JavaAssignment1();
 
         do {
             System.out.println("Enter the file name wanted search : ");
